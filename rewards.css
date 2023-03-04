@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anton&family=Bungee+Hairline&family=Comfortaa:wght@300&family=Inconsolata:wght@300&family=Josefin+Sans:ital,wght@1,100&family=Klee+One&family=Lato:wght@300&family=Orbitron&family=Oswald:wght@200&family=Roboto:wght@100&family=Vollkorn&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 150px;
+    box-shadow: 0px 0px 5px;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 55px;
+    margin-top: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: lato;
+    font-weight: bolder;
+}
+
+ul li a:hover {
+    color: rgb(16, 122, 16);
+    transition: 0.5s;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.buttons div {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #11111100;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #e6e6e6;
+}
+
+.buttons div:hover {
+    background-color: #008248;
+    color: #fff;
+    box-shadow: 0px 5px 10px #111;
+    border: none;
+}
+
+.page {
+    background: url(/Photos/rewardsphoto.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.text {
+    width: 900px;
+    height: 100vh;
+    background-color: #008248;
+}
+
+.metin {
+    width: 700px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+}
+
+h2 {
+    color: #f8f8f8;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2:nth-child(1) {
+    margin-top: 0px;
+}
+
+span {
+    color: #000000;
+    margin-bottom: 20px;
+}
+/*Mobil Photos kısmını baştan düzenle
+görseller yanyana yazılar altında olacak şekilde*/
+.mobilphotos {
+    width: 500px;
+    height: 100vh;
+    display: inline-block;
+}
+
+.mobilphotos h2{
+    width: 200px;
+    height: 100px;
+    font-weight: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.mobilphotos span {
+    width: 200px;
+    height: 200px;
+    font-weight: 15px;
+    margin-bottom: 0px;
+}
